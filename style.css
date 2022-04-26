@@ -1,0 +1,245 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  color: white !important;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  text-decoration: none !important;
+}
+.header {
+  background-image: url(./images/bg-footer.png);
+}
+.container {
+  max-width: 90vw;
+  margin: 0 auto;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+.nav__logo {
+  width: 180px;
+  height: 100px;
+}
+.nav__logo-img {
+  width: 100%;
+  height: 100%;
+}
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 580px;
+}
+.nav__list-item {
+}
+.nav__text {
+  padding-top: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  font-family: "Satisfy", cursive;
+  width: 300px;
+}
+/* Section */
+.section {
+  background-image: url(./images/bg-header.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100vw;
+  height: 80vh;
+  position: relative;
+}
+.section__text {
+  background-color: rgb(53, 52, 52);
+  padding: 50px 100px;
+  opacity: 90%;
+  position: absolute;
+  bottom: 100px;
+  left: 50px;
+}
+.section__text p {
+  color: white;
+  font-size: 36px;
+}
+.content {
+  background-image: url(./images/body-after.png);
+  background-size: 100%;
+  width: 100%;
+  height: 100%;
+  padding-top: 100px;
+}
+.content__block {
+  display: flex;
+  justify-content: space-between;
+}
+.content__lion {
+  margin-bottom: 50px;
+  background-image: url(./images/lion.jpg);
+}
+.content__left {
+  display: flex;
+  flex-direction: column;
+  padding-right: 100px;
+}
+.content__card {
+  width: 500px;
+  height: 250px;
+  position: relative;
+  background-size: cover;
+}
+.content__card p {
+  position: absolute;
+  bottom: 40px;
+  left: 50px;
+  font-size: 26px;
+  font-weight: 600;
+}
+.kangoroo {
+  background-image: url(./images/kenguru.jpg);
+}
+.content__right {
+  background-image: url(./images/bg-a.jpg);
+}
+.content__right img {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 100px;
+}
+.content__history {
+  margin-top: 40px;
+  width: 100%;
+  height: 100%;
+}
+.content__right p {
+  text-align: center;
+  padding-bottom: 50px;
+  font-size: 40px;
+  font-weight: 500;
+}
+/* footer */
+.footer {
+  background-image: url(./images/bg-footer.png);
+  width: 100%;
+  height: 100%;
+}
+.footer__block {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+.footer__block-list {
+}
+.footer__block-title {
+  padding-bottom: 20px;
+  font-size: 24px;
+  font-weight: 600;
+}
+.footer__block-item {
+  padding-top: 10px;
+}
+.footer__block-item-social {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.footer__block-item-social img {
+  width: 40px;
+  height: 40px;
+}
+/* animals */
+.animals__cards {
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 100px;
+}
+.animal__card {
+  padding: 5px;
+  width: 340px;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+}
+.animal__card p {
+  font-size: 32px;
+}
+.animal__card:hover {
+  box-shadow: 0 0 10px 5px rgb(139, 136, 136);
+}
+.mammals {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/54/Leopard---Panthera-pardus-saxicolor---Face---%28Gentry%29.jpg");
+}
+.birds {
+  background-image: url("https://web-zoopark.ru/wp-content/uploads/2018/06/5-86.jpg");
+}
+.reptiles {
+  background-image: url("https://bigasia.ru/upload/resize_cache/iblock/31b/800_600_1/31bdc0b428f667d727525d8166a3d99f.jpg");
+}
+/* About */
+.about {
+  background-image: url(./images/bg-1.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  height: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.about__title {
+  text-align: center;
+  padding-bottom: 20px;
+  color: black !important;
+}
+.about__text {
+  text-align: center;
+  color: black !important;
+}
+.visitors__text {
+  text-align: left;
+  color: black !important;
+}
+/* mammals */
+.mammals__cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.leopard {
+  background-image: url("https://cdn.fishki.net/upload/post/2021/01/03/3534035/33e53fdc43ae31755f1f69a1cb327735.jpg");
+}
+.eleph {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/9/98/Elephas_maximus_%28Bandipur%29.jpg");
+}
+.tiger {
+  background-image: url("https://wwf.ru/upload/resize_cache/iblock/8c8/700_700_1/tiger_main.jpg");
+}
+.arhar {
+  margin-top: 20px;
+  background-image: url("http://simple-fauna.ru/wp-content/uploads/2017/08/gornyj-baran.jpg");
+}
+/* birds */
+.baloban {
+  background-image: url("https://web-zoopark.ru/wp-content/uploads/2018/06/2-657.jpg");
+}
+.filin {
+  background-image: url("http://www.ebirds.ru/images/e/223.jpg");
+}
+.flamingo {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Celestun_1.JPG/1200px-Celestun_1.JPG");
+}
+.kayman {
+  background-image: url("https://ianimal.ru/wp-content/uploads/2011/01/kaiman15.jpg");
+}
+.cherepaha {
+  background-image: url("https://static.mk.ru/upload/entities/2018/08/24/articles/detailPicture/0b/53/73/a0/0c12c1983a4dd0686146bd161f8bff8c.jpg");
+}
+.python {
+  background-image: url("https://web-zoopark.ru/wp-content/uploads/2018/06/8-123.jpg");
+}

@@ -1,0 +1,15 @@
+/* add */
+.add {
+  padding-top: 50px;
+  margin-bottom: 50px;
+}
+.content-block {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  width: 100%;
+  height: 100%;
+  background-image: url(./images/bg-footer.png);
+}
+.card {
+  margin-left: 20px;
+}
